@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210408/pngtree-white-abstract-vector-web-background-design-image_597636.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  color: #000000; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background: #303fae;
+  color: #ffffff; /* Цвет текста кнопки */
+  font-size: 18px; /* Увеличенный размер текста */
+  padding: 10px 20px; /* Увеличенные размеры кнопки */
+  border: none; /* Убираем границу */
+  border-radius: 5px; /* Скругленные углы */
+  cursor: pointer; /* Курсор в виде руки при наведении */
+  transition: background 0.3s ease; /* Плавный переход цвета фона */
+}
+
+button:hover {
+  background: #c70909;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+  font-size: 16px; /* Увеличенный размер текста для меток */
+}
+
+button[type="submit"] {
+  background: #303fae;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background: #41c148;
+}
+
